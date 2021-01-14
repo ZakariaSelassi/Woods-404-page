@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#banner {
+    width: 100%;
+    height: 100vh;
+    margin: 0px auto;
+    overflow: hidden;
+    background: url('img/wood.jpg');
+    background-position: 0 center;
+    /* Center the image */
+    background-repeat: repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    animation: move linear 15sec infinite;
+}
+
+@keyframes move {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 300px 0;
+    }
+}
