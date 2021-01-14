@@ -39,10 +39,10 @@ a {
 
 a:hover {
     background-color: #bcaf61;
-    animation: change 2s infinite;
+    animation: SwitchColor 2s infinite;
 }
 
-@keyframes change {
+@keyframes SwitchColor {
     0% {
         background-color: #d3c46d;
     }
